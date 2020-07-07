@@ -13,6 +13,8 @@ type Props = {
   }
 };
 
+// reads the Props type and grabs data from it, so we can get markdownRemark from that
+// (basically: accesses the graphql query)
 const PageTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { html: pageBody } = data.markdownRemark;

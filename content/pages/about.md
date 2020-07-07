@@ -1,13 +1,15 @@
 ---
-title: "About me"
+title: "About Me"
 template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+I am a full stack data engineer, specializing in managing and manipulating data at scale and integrating that into your app, from front to back. 
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+I most enjoy my work when learning something new and challenging. 
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+My education background includes two masters degrees. My studies involved mastering multiple languages and reading and writing highly technical works with precision. Research projects involved searching out every angle in order to resolve every dilemma, all before the deadline. I bring this same level of precision, critical thinking, and work ethic to software development as well. 
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+Professional interests include all things data, but especially health care use cases for AI/machine learning. 
+
+Occasionally I write technical blog posts, which you can find [here on Medium](https://medium.com/@rlquey2).

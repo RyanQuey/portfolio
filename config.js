@@ -12,17 +12,21 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'How I Fit Into Your Team',
+      path: '/pages/how-i-fit'
+    },
+    {
+      label: 'Expertise',
+      path: '/pages/expertise'
+    },
+    {
+      label: 'Sample Projects',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
     name: 'Ryan Quey',

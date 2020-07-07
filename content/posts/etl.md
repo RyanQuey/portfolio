@@ -1,9 +1,9 @@
 ---
-title: "Johannes Gutenberg: The Birth of Movable Type"
+title: "ETL: From Matlab to Spark"
 date: "2017-08-18T22:12:03.284Z"
 template: "post"
 draft: false
-slug: "the-birth-of-movable-type"
+slug: "etl"
 category: "Typography"
 tags:
   - "Open source"
