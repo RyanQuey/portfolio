@@ -5,7 +5,7 @@ socialImage: "/media/image-2.jpg"
 ---
 
 ## Big Data, Small Team 
-I got my start as a full stack developer, which laid a strong general foundation across many tools and technologies. However, over time I have specialized more and more in the backend, including a lot of exposure to DevOps roles, but particularly working with data. 
+I got my start as a full stack developer, which laid a strong general foundation across many tools and technologies. However, over time I have specialized more and more in the backend, including a lot of exposure in DevOps roles, but particularly in roles working with data. 
 
 What this means is that I am uniquely equipped to work well in small teams that can't afford to hire a specialist for every role, but also can't afford to hire someone who doesn't know what they're doing, which will cost even more in the long run when it's time to scale up. Let me design and implement your data pipelines, database infrastructure, hosting, cloud services, api server, frontend code, data visualizations, or all of the above.
 

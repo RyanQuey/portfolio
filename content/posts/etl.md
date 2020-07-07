@@ -1,5 +1,5 @@
 ---
-title: "ETL: From Matlab to Spark"
+title: "Reading Matlab into Spark"
 date: "2017-08-18T22:12:03.284Z"
 template: "post"
 draft: false
