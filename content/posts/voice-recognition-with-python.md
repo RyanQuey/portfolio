@@ -1,10 +1,10 @@
 ---
 title: "Voice Recognition with Django"
-date: "2017-09-01T23:46:37.121Z"
 template: "post"
 draft: false
 slug: "google-analytics-auditing-and-dashboards"
-category: "Design Inspiration"
+priority: 3
+category: "Production-level Project"
 tags:
   - "Google Analytics"
   - "Dashboards"

@@ -1,10 +1,10 @@
 ---
 title: "Delivering Distributed Search with Elassandra and NodeJS"
-date: "2016-02-02T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "distributed-search"
-category: "Search App"
+priority: 5
+category: "Tutorial"
 tags:
   - "Elasticsearch"
   - "Cassandra"

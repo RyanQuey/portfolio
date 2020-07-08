@@ -1,9 +1,9 @@
 ---
 title: "Reading Matlab into Spark"
-date: "2017-08-18T22:12:03.284Z"
 template: "post"
 draft: false
 slug: "etl"
+priority: 4
 category: "Typography"
 tags:
   - "Open source"

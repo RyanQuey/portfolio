@@ -1,4 +1,5 @@
 FROM gitpod/workspace-full
+RUN npm i gatsby-cli -g
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:

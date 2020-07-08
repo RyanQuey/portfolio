@@ -1,10 +1,10 @@
 ---
-title: ""
-date: "2016-02-02T22:40:32.169Z"
+title: "Provide Search for Cassandra DB using Elasticsearch and Flask"
 template: "post"
 draft: false
 slug: "a-brief-history-of-typography"
-category: "Design Inspiration"
+priority: 5
+category: "Sample Microservice"
 tags:
   - "Linotype"
   - "Monotype"

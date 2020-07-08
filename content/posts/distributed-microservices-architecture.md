@@ -1,10 +1,10 @@
 ---
-title: Data-Intensive Microservices Architecture
-date: "2017-08-19T22:40:32.169Z"
+title: Build a Data intensive App from Start to Finish
 template: "post"
 draft: false
 slug: "distributed-microservices-architecture"
-category: ""
+priority: 10
+category: "Sample Project"
 tags:
   - "Java"
   - "Python"

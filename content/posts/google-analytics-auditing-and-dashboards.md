@@ -1,9 +1,9 @@
 ---
 title: "Google Analytics: Auditing and Visualization"
-date: "2016-09-01T23:46:37.121Z"
 template: "post"
 draft: false
 slug: "google-analytics-auditing-and-dashboards"
+priority: 5
 category: "Design Inspiration"
 tags:
   - "Google Analytics"
