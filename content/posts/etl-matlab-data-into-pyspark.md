@@ -7,9 +7,12 @@ priority: 4
 category: "sample feature"
 tags:
   - "spark"
+  - "pyspark"
+  - "python"
   - "matlab"
+  - "batch jobs"
   - "zeppelin"
-description: "German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible."
+description: ""
 indexImage: "/media/gutenberg.jpg"
 githubRepo: "matlab-to-python-playground"
 ---
