@@ -1,15 +1,19 @@
 ---
-title: "Voice Recognition with Django"
+title: "Connect Django Web Server to Google Cloud APIs"
 template: "post"
 draft: false
-slug: "google-analytics-auditing-and-dashboards"
-priority: 3
-category: "sample project"
+slug: "connect-django-web-server-to-gcp-apis"
+priority: 5
+category: "sample feature"
 tags:
-  - "Google Analytics"
-  - "Dashboards"
+  - "google analytics"
+  - "data visualization"
+  - "react"
+  - "chart.js"
+  - "nodejs"
 description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
-socialImage: "/media/image-2.jpg"
+indexImage: "/media/image-2.jpg"
+githubRepo: "python-heroku-khmer-speech-to-text"
 ---
 
 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.

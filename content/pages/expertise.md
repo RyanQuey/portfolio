@@ -1,7 +1,7 @@
 ---
 title: "Expertise"
 template: "page"
-socialImage: "/media/image-2.jpg"
+indexImage: "/media/image-2.jpg"
 ---
 
 ## Databases 

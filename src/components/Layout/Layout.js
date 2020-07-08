@@ -20,6 +20,7 @@ const Layout = ({
   socialImage
 }: Props) => {
   const { author, url } = useSiteMetadata();
+  // for my use case, I don't think anyone is going to tweet my pages. Don't bother with this, just unsetting for now
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
 
