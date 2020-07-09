@@ -32,7 +32,7 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
-      <Page title={category}>
+      <Page title={"Project: " + category}>
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
@@ -58,12 +58,16 @@ export const query = graphql`
           fields {
             categorySlug
             slug
+            tagSlugs
           }
           frontmatter {
             priority
             description
             category
             title
+            tags
+            indexImage
+            githubRepo
           }
         }
       }

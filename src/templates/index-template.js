@@ -32,7 +32,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
-      <Page>
+      <Page title="Solutions">
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
