@@ -79,13 +79,15 @@ const techs = [
         {
           name: "Flask", 
           imageUrl: "/media/data-tool-logos/flask/flask-logo-44C507ABB7-seeklogo.com.png",
+          imgPadding: [10, 0, 10, 0],
         },
       ]},
 
-      {name: "JavaScript Frameworks", items: [
+      {name: "Frontend Frameworks", items: [
         {
           name: "React", 
           imageUrl: "/media/data-tool-logos/react/React-with-lg-text-horizontal.png",
+          imgPadding: [15, 0, 15, 0],
         },
       ]},
 
@@ -93,10 +95,12 @@ const techs = [
         {
           name: "Python",
           imageUrl: "/media/data-tool-logos/python/165px-Python-logo-notext.svg.png",
+          imgPadding: [10, 0, 10, 0],
         },
         {
           name: "Java",
           imageUrl: "/media/data-tool-logos/java/212px-Java_programming_language_logo.svg.png",
+          imgPadding: [0, 10, 0, 10],
         },
         {
           name: "Scala",

@@ -4,12 +4,12 @@
 .expertise-tech-list {
   display: flex;
   flex-wrap: wrap;
-  max-height: 2600px;
+  justify-content: space-around;
 }
 .tech-header {
 }
 .tech-type-container {
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   @include breakpoint-sm {
     width: 285px;
   }

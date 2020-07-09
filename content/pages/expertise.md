@@ -10,3 +10,4 @@ If you have need a particular feature added to your tool or have a specific bug 
 
 That said, here are some of the tools I can use to build your data-intensive project:
 
+[//]: # (Rest is in Technologies.js component)
