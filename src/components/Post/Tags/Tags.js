@@ -29,20 +29,20 @@ class Tags extends React.Component {
       <div className={styles['tags']}>
         <ul className={styles['tags__list']}>
           {tagSlugs && tagSlugs.map((slug, i) => (
-            <li className={styles['tags__list-item'] + " " + (styles[smallTags ?"small-tag" : "big-tag"])} key={tags[i]}>
+            <li className={styles['tags__list-item'] + " " + (styles[smallTags ? "small-tag" : "big-tag"])} key={tags[i]}>
               <Link to={slug} className={styles['tags__list-item-link'] + " " + (styles[smallTags ?"small-tag-link" : "big-tag-link"])}>
                 {tags[i]}
               </Link>
             </li>
           ))}
 
-          <a 
+          {this.props.tags.length > 5 && <a 
             className={styles['tags__list-show-more-link']} 
             href="#"
             onClick={this.toggleShowMoreTags}
           >
             Show {this.state.showMoreTags ? "Less" : "More"}
-          </a>
+          </a>}
         </ul>
       </div>
     )
