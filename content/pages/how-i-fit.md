@@ -31,4 +31,4 @@ If you feel the same way, I'd love to learn more about what you're working on an
 
 ## Not convinced, or just want to learn more?
 
-Contact me, and I can send you my references. I am confident that they will back up what I claim and more. On every project that I've worked on, I have left on good terms and often with an open invitation to work on the project again when availability allows. I have nothing to hide, and am confident that my references will affirm the value that I can add to your team.
+[Contact me](mailto:quey.ryan@gmail.com), and I can send you my references. I am confident that they will back up what I claim and more. On every project that I've worked on, I have left on good terms and often with an open invitation to work on the project again when availability allows. I have nothing to hide, and am confident that my references will affirm the value that I can add to your team.

@@ -74,7 +74,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { order: DESC, fields: [frontmatter___priority] },
                   filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
                 ) {
                   edges {
@@ -86,8 +86,8 @@ module.exports = {
                       }
                       frontmatter {
                         title
-                        date
                         tags
+                        priority
                         githubRepo
                         indexImage
                         template
