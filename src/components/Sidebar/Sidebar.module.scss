@@ -11,8 +11,10 @@
 
 @include breakpoint-sm {
     .sidebar {
+        
         lost-column: 5/12;
         &__inner {
+            position: fixed;
             padding: 30px 20px 0;
             &:after {
                 background: $color-gray-border;

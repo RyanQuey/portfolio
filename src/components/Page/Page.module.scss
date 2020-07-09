@@ -28,6 +28,9 @@
 @include breakpoint-sm {
   .page {
     lost-column: 7/12;
+    // so stays where it should be, though the sidebar will be fixed
+    position: relative;
+    left: 330px;
 
     &__inner {
       padding: 30px 20px;
