@@ -1,0 +1,41 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.expertise-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tech-header {
+}
+.tech-type-container {
+  padding: 10px;
+
+  .tech-type-name {
+  }
+
+  .tech-items-container {
+    display: flex;
+    max-height: 150px;
+    min-height: 150px;
+    overflow: hidden;
+
+    .tech-item {
+      position: relative;
+      margin: 10px;
+      height: 100%;
+      max-height: 100%;
+      max-width: 450px;
+
+      .tech-item-name {
+      }
+      img.tech-item-logo {
+        max-width: 100%;
+      }
+    }
+}
+}
+@include breakpoint-sm {
+}
+
+@include breakpoint-md {
+}
