@@ -2,4 +2,4 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: npm install && npm run build
+  - init: npm install && npm run develop
