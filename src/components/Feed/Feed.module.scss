@@ -34,14 +34,29 @@
       @include margin-bottom(.75);
     }
 
-    &-tags-container {
+    &-content-container {
       display: flex;
-
+      flex-direction: row;
+      flex-wrap: wrap;
     }
 
-    &-show-more-link {
-      @include margin-bottom(.5);
-      white-space: nowrap;
+    &-details-container {
+      max-width: 350px;
+      padding: 0 5px;
+    }
+
+    &-image-container {
+      display: flex;
+      max-width: 200px;
+      max-height: 100%;
+      min-height: 100%;
+      padding: 10px;
+    }
+
+    &-image {
+      width: 100%;
+      max-height: 100%;
+      margin: auto;
     }
 
     &-meta {
