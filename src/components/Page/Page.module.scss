@@ -27,10 +27,16 @@
 
 @include breakpoint-sm {
   .page {
-    lost-column: 7/12;
+    //lost-column: 7/12;
+    lost-column: 9/12;
+
     // so stays where it should be, though the sidebar will be fixed
     position: relative;
-    left: 330px;
+
+    //squeezing a bit of screen page for the sake or the expertise 
+    //page and those images that we want to squeeze in
+    //left: 330px;
+    left: 300px;
 
     &__inner {
       padding: 30px 20px;

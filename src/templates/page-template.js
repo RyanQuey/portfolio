@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
+import Technologies from '../components/page-components/Technologies';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
@@ -13,6 +14,10 @@ type Props = {
   }
 };
 
+const components = {
+  Technologies, 
+}
+
 // reads the Props type and grabs data from it, so we can get markdownRemark from that
 // (basically: accesses the graphql query)
 const PageTemplate = ({ data }: Props) => {
@@ -21,12 +26,14 @@ const PageTemplate = ({ data }: Props) => {
   const { frontmatter } = data.markdownRemark;
   const { title: pageTitle, description: pageDescription, socialImage } = frontmatter;
   const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
+  const PostHtmlComponentName = frontmatter.postHtmlComponent && components[frontmatter.postHtmlComponent]
 
   return (
     <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
+        {PostHtmlComponentName && <PostHtmlComponentName />} 
       </Page>
     </Layout>
   );
@@ -41,6 +48,7 @@ export const query = graphql`
         title
         description
         socialImage
+        postHtmlComponent 
       }
     }
   }
