@@ -4,13 +4,22 @@
 .expertise-tech-list {
   display: flex;
   flex-wrap: wrap;
+  // makes a nice little indentation for mobile, but keeps space between columns for desktop
   justify-content: space-around;
+
+
+  @include breakpoint-md {
+    justify-content: space-between;
+  }
 }
 .tech-header {
 }
 .tech-type-container {
   padding: 10px 10px 10px 0;
-  @include breakpoint-sm {
+  @include breakpoint-md {
+    width: 245px;
+  }
+  @include breakpoint-lg {
     width: 285px;
   }
 
@@ -26,13 +35,14 @@
     flex-wrap: wrap;
     overflow: hidden;
     width: 100%;
+    margin-bottom: 2rem;
 
     .tech-item {
       position: relative;
       margin: 0 5px;
       // keep the same as the img height set in the html (I think helps browser load time to know size or something)
       max-height: 100px;
-      min-height: 100px;
+      min-height: 70px;
       max-width: 450px;
 
       .tech-item-name {

@@ -111,7 +111,7 @@ const techs = [
 ]
 const otherTechs = [
 
-      {name: "Data Visualization Tools", items: [
+      {name: "Data Visualization", items: [
         {name: "Kibana",},
         {name: "Zeppelin",},
         {name: "Jupyter",},
@@ -119,10 +119,10 @@ const otherTechs = [
         {name: "Searchkit"}
       ]},
 
-      {name: "Also have some experience with:", items: [
+      {name: "Also have experience with:", items: [
         {name: "Redis",},
         //{name: "Flask",},
-        {name: "Spring",},
+        {name: "Spring MVC",},
         {name: "Electron",},
         {name: "GatsbyJS",},
         {name: "Firebase",},
