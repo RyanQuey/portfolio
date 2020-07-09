@@ -8,18 +8,45 @@ type Props = {
   tagSlugs: string[]
 };
 
-const Tags = ({ tags, tagSlugs }: Props) => (
-  <div className={styles['tags']}>
-    <ul className={styles['tags__list']}>
-      {tagSlugs && tagSlugs.map((slug, i) => (
-        <li className={styles['tags__list-item']} key={tags[i]}>
-          <Link to={slug} className={styles['tags__list-item-link']}>
-            {tags[i]}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
+class Tags extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { showMoreTags: false };
+    this.toggleShowMoreTags = this.toggleShowMoreTags.bind(this);
+  }
+
+  toggleShowMoreTags (e) {
+    e.preventDefault();
+    this.setState({showMoreTags: !this.state.showMoreTags})
+  }
+
+  render () {
+    const { smallTags } = this.props
+    const tags = this.state.showMoreTags ? this.props.tags : this.props.tags.slice(0, 5)
+    const tagSlugs = this.state.showMoreTags ? this.props.tagSlugs : this.props.tagSlugs.slice(0, 5)
+
+    return (
+      <div className={styles['tags']}>
+        <ul className={styles['tags__list']}>
+          {tagSlugs && tagSlugs.map((slug, i) => (
+            <li className={styles['tags__list-item'] + " " + (styles[smallTags ?"small-tag" : "big-tag"])} key={tags[i]}>
+              <Link to={slug} className={styles['tags__list-item-link'] + " " + (styles[smallTags ?"small-tag-link" : "big-tag-link"])}>
+                {tags[i]}
+              </Link>
+            </li>
+          ))}
+
+          <a 
+            className={styles['tags__list-show-more-link']} 
+            href="#"
+            onClick={this.toggleShowMoreTags}
+          >
+            Show {this.state.showMoreTags ? "Less" : "More"}
+          </a>
+        </ul>
+      </div>
+    )
+  }
+};
 
 export default Tags;

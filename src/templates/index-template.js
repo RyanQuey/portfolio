@@ -58,12 +58,16 @@ export const query = graphql`
           fields {
             slug
             categorySlug
+            tagSlugs
           }
           frontmatter {
             title
             priority
             category
             description
+            tags
+            indexImage
+            githubRepo
           }
         }
       }

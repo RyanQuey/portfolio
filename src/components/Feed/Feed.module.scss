@@ -34,6 +34,16 @@
       @include margin-bottom(.75);
     }
 
+    &-tags-container {
+      display: flex;
+
+    }
+
+    &-show-more-link {
+      @include margin-bottom(.5);
+      white-space: nowrap;
+    }
+
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;

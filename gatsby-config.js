@@ -62,7 +62,9 @@ module.exports = {
             allMarkdownRemark.edges.map((edge) => ({
               ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
-              date: edge.node.frontmatter.date,
+              tags: edge.node.frontmatter.tags,
+              indexImage: edge.node.frontmatter.indexImage,
+              githubRepo: edge.node.frontmatter.githubRepo,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
               custom_elements: [{ 'content:encoded': edge.node.html }]
@@ -79,11 +81,15 @@ module.exports = {
                     node {
                       html
                       fields {
+                        # currently not using
                         slug
                       }
                       frontmatter {
                         title
                         date
+                        tags
+                        githubRepo
+                        indexImage
                         template
                         draft
                         description

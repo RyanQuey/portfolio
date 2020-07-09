@@ -23,13 +23,30 @@
         border-radius: $button-border-radius;
         color: $color-base;
 
+
         &:hover,
         &:focus {
           color: $color-primary;
         }
 
+        &.small-tag-link {
+          height: calc(#{$button-height} * .7);
+          line-height: calc(#{$button-height} * .7);
+          border-radius: calc(#{$button-border-radius} * .7);
+          font-size: .7rem;
+          padding: 0 12px;
+        }
+      }
+      &.small-tag {
+        margin: 5px 2.5px;
       }
 
+    }
+
+    &-show-more-link {
+      @include margin-bottom(.5);
+      white-space: nowrap;
+      font-size: .7rem;
     }
 
   }
