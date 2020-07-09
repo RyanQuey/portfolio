@@ -27,8 +27,7 @@
 
 @include breakpoint-sm {
   .page {
-    //lost-column: 7/12;
-    lost-column: 9/12;
+    lost-column: 7/12;
 
     // so stays where it should be, though the sidebar will be fixed
     position: relative;

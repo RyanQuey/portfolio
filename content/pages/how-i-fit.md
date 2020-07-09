@@ -15,7 +15,7 @@ I can build your data-intensive project from the ground up, quickly but in a sca
 **Already have a working MVP and ready to add more?**
 I will learn your code and dive in from day one. I prefer best practices but prefer maintaining consistency with an existing codebase even more. 
 
-**Want To See An Example?** [Click here](/) for a better idea of what this could look like.
+**Want To See An Example?** [Click here](/) for some ideas of what this could look like.
 
 ## Flexible and Agile
 I am known for simply getting the job done regardless of the difficulty or whether I have ever done anything like it before. I have worked well with business partners, product managers, scrum masters and other roles and can be flexible as to what is needed for an effort, project, or iterative release. 

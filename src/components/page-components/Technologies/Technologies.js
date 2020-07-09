@@ -33,7 +33,7 @@ const techs = [
         {
           name: "Solr", 
           imageUrl: "/media/data-tool-logos/solr-logos/Solr_Logo_on_white.png", 
-          imgPadding: [0, 0, 30, 0],
+          imgPadding: [5, 0, 20, 0],
         },
       ]},
 
@@ -85,18 +85,18 @@ const techs = [
       {name: "JavaScript Frameworks", items: [
         {
           name: "React", 
-          imageUrl: "/media/data-tool-logos/react/React-icon.svg.png",
+          imageUrl: "/media/data-tool-logos/react/React-with-lg-text-horizontal.png",
         },
       ]},
 
       {name: "Languages", items: [
         {
           name: "Python",
-          imageUrl: "/media/data-tool-logos/python/python-logo-master-v3-TM-flattened.png",
+          imageUrl: "/media/data-tool-logos/python/165px-Python-logo-notext.svg.png",
         },
         {
           name: "Java",
-          imageUrl: "/media/data-tool-logos/java/Java_logo_icon.png",
+          imageUrl: "/media/data-tool-logos/java/212px-Java_programming_language_logo.svg.png",
         },
         {
           name: "Scala",
