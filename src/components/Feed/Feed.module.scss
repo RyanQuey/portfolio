@@ -41,13 +41,17 @@
     }
 
     &-details-container {
-      max-width: 350px;
+      //max-width: 350px;
       padding: 0 5px;
     }
 
     &-image-container {
       display: flex;
-      max-width: 200px;
+      // Change this to 200px in the image will be side-by-side with the description
+      // But it makes for more white space, especially for horizontal-oriented images
+      // would want to add the maxwidth of the details container as well if you do this
+      // max-width: 200px;
+      max-width: 100%;
       max-height: 100%;
       min-height: 100%;
       padding: 10px;
