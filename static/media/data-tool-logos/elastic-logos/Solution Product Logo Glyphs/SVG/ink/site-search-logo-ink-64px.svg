@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>site-search-logo-ink-64px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 36.6828 0 36.6828 34 0 34"></polygon>
+    </defs>
+    <g id="site-search-logo-ink-64px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-box" x="0" y="0" width="64" height="64"></rect>
+        <g id="Group-6" transform="translate(6.000000, 5.000000)">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M36.6828,0 L12.6828,0 L0.7478,23.87 C-1.5792,28.524 1.8058,34 7.0088,34 L19.6828,34 L36.6828,0 Z" id="Fill-1" fill="#343741" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M45.6994,17 L33.7314,17 L15.1694,54 C15.1694,54 41.3284,45.825 51.8534,27.337 C54.4774,22.726 51.0054,17 45.6994,17" id="Fill-4" fill="#343741"></path>
+        </g>
+    </g>
+</svg>

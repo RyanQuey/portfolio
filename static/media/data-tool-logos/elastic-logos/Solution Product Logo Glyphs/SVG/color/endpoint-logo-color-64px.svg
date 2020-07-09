@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>endpoint-logo-color-64px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="endpoint-logo-color-64px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-box" x="0" y="0" width="64" height="64"></rect>
+        <g id="group" transform="translate(7.000000, 5.000200)">
+            <path d="M22,26.9999 L8.935,4.4319 C6.48,0.1939 0,1.9349 0,6.8319 L0,47.1679 C0,52.0649 6.48,53.8059 8.935,49.5669 L22,26.9999 Z" id="Fill-1" fill="#F04E98"></path>
+            <path d="M27.7773,26.9999 L26.3273,29.5049 L13.2613,52.0729 C12.8473,52.7869 12.3533,53.4269 11.8023,53.9999 L27.9273,53.9999 C31.7073,53.9999 35.2213,52.0599 37.2363,48.8609 L51.0003,26.9999 L27.7773,26.9999 Z" id="Fill-3" fill="#FA744E"></path>
+            <path d="M37.2363,5.139 C35.2213,1.94 31.7073,0 27.9273,0 L11.8023,0 C12.3533,0.573 12.8473,1.212 13.2613,1.927 L26.3273,24.494 L27.7773,27 L51.0003,27 L37.2363,5.139 Z" id="Fill-6" fill="#343741"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>maps-logo-ink-64px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="maps-logo-ink-64px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-box" x="0" y="0" width="64" height="64"></rect>
+        <g id="Group-7" transform="translate(5.000000, 5.000000)" fill="#343741">
+            <path d="M43.0313,16.1079 C43.0313,27.3299 27.0003,35.3879 27.0003,35.3879 C27.0003,35.3879 10.9683,27.3299 10.9683,16.1079 C10.9683,7.2539 18.1463,0.0769 27.0003,0.0769 C35.8533,0.0769 43.0313,7.2539 43.0313,16.1079" id="Fill-1"></path>
+            <path d="M43.0488,28.8623 C41.7098,30.5393 40.1158,32.1783 38.2598,33.7603 C33.8438,37.5263 29.4318,39.7613 29.2448,39.8553 L26.9998,40.9843 L24.7548,39.8553 C24.5688,39.7613 20.1558,37.5263 15.7398,33.7603 C13.8838,32.1783 12.2898,30.5393 10.9508,28.8623 L-0.0002,37.0753 L19.1778,51.4583 C23.8128,54.9353 30.1878,54.9353 34.8218,51.4583 L53.9998,37.0753 L43.0488,28.8623 Z" id="Fill-3"></path>
+        </g>
+    </g>
+</svg>

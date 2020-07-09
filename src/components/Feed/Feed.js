@@ -19,6 +19,7 @@ class Feed extends React.Component {
 
     return (
       <div className={styles['feed']}>
+        <h1 className={styles['feed__header']}>Solutions</h1>
         {edges.map((edge) => {
           const {frontmatter, fields} = edge.node
 

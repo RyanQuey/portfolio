@@ -24,6 +24,6 @@ tags:
   - "batch jobs"
   - "data streaming"
 description: "Orchestrate all of your microservices together, from data pipeline to web app to data visualization and user-facing search functionality."
-indexImage: "/media/42-line-bible.jpg"
+indexImage: "/media/project-images/podcast-analysis-tool/wh_podcast-analysis-tool-diagram.png"
 githubRepo: "java-podcast-processor"
 ---

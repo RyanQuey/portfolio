@@ -20,7 +20,7 @@ module.exports = {
       path: '/pages/expertise'
     },
     {
-      label: 'Sample Projects',
+      label: 'Solutions',
       path: '/'
     },
     {
