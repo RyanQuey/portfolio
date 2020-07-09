@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>endpoint-logo-white-64px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="endpoint-logo-white-64px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bounding-box" x="0" y="0" width="64" height="64"></rect>
+        <path d="M29,32.0001 L15.935,9.4321 C13.48,5.1941 7,6.9351 7,11.8321 L7,52.1681 C7,57.0651 13.48,58.8061 15.935,54.5671 L29,32.0001 Z" id="Fill-1" fill="#FFFFFF"></path>
+        <path d="M34.9273,5.0002 C38.7073,5.0002 42.2213,6.9402 44.2363,10.1392 L44.2363,10.1392 L57.9993,31.9992 L58.0003,32.0001 L58.0003,32.0002 L57.9993,32.0002 L44.2363,53.8611 C42.2805647,56.9660118 38.9127092,58.8848933 35.2601077,58.9950827 L34.9273,59.0001 L18.8023,59.0001 C19.3533,58.4271 19.8473,57.7871 20.2613,57.0731 L20.2613,57.0731 L33.3273,34.5051 L34.7773,32.0001 L33.3273,29.4942 L20.2613,6.9272 C19.8473,6.2122 19.3533,5.5732 18.8023,5.0002 L18.8023,5.0002 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

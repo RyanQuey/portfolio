@@ -1,5 +1,5 @@
 ---
-title: Build a Data Intensive, Distributed, Full Stack App from Start to Finish
+title: Build a Data Intensive Full Stack App from Start to Finish
 template: "post"
 draft: false
 slug: "build-a-data-intensive-app-from-start-to-finish"

@@ -2,3 +2,20 @@
 
 @import "normalize-scss";
 @import "base/generic";
+
+#expertise-page {
+  #expertise-tech-list {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      display: inline-block;
+      max-height: 75px;
+      height: 75px;
+      // max-width: 100px;
+    }
+
+
+  }
+
+}

@@ -32,9 +32,10 @@ class Feed extends React.Component {
               </div>
               <div className={styles['feed__item-content-container']}>
                 <h2 className={styles['feed__item-title']}>
-                  <Link className={styles['feed__item-title-link']} to={fields.slug}>
+                  {false && <Link className={styles['feed__item-title-link']} to={fields.slug}>
                     {frontmatter.title}
-                  </Link>
+                  </Link>}
+                  {frontmatter.title}
                 </h2>
                 <div className={styles['feed__item-image-container']}>
                   <img
