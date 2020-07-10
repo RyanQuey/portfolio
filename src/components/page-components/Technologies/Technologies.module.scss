@@ -52,6 +52,10 @@
         padding: 0;
         font-size: .5rem;
         text-align: center;
+        font-size: 1px; // needs to be at least a little visible or ctrl-f doesn't work
+        position: absolute;
+        top: 20px;
+        z-index: -1; // put it behind everything
       }
       img.tech-item-logo {
         max-width: 100%;
