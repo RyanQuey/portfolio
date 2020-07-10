@@ -14,7 +14,7 @@ const techs = [
           imgPadding: [5, 0, 5, 0],
         },
         {
-          name: "Cassandra", 
+          name: "Apache Cassandra", 
           imageUrl: "/media/data-tool-logos/cassandra/cassandra-1.png",
           imgPadding: [5, 0, 5, 0],
         },
@@ -22,7 +22,7 @@ const techs = [
 
       {name: "Message Queues", items: [
         {
-          name: "Kafka", 
+          name: "Apache Kafka", 
           imageUrl: "/media/data-tool-logos/kafka/kafka-logo-wide.png",
           imgPadding: [5, 0, 5, 0],
         },
@@ -31,7 +31,7 @@ const techs = [
       {name: "Search Engines", items: [
         {name: "Elasticsearch", imageUrl: "/media/data-tool-logos/elasticsearch/brand-elasticsearch-220x130.png"},
         {
-          name: "Solr", 
+          name: "Apache Solr", 
           imageUrl: "/media/data-tool-logos/solr-logos/Solr_Logo_on_white.png", 
           imgPadding: [5, 0, 20, 0],
         },
@@ -39,12 +39,12 @@ const techs = [
 
       {name: "Data ETL Tools", items: [
         {
-          name: "Spark", 
+          name: "Apache Spark", 
           imageUrl: "/media/data-tool-logos/spark/spark.png",
           imgPadding: [10, 0, 10, 0]
         },
         {
-          name: "Airflow", 
+          name: "Apache Airflow", 
           imageUrl: "/media/data-tool-logos/airflow/airflow-1.png",
           imgPadding: [15, 0, 15, 0]
         },
@@ -150,11 +150,11 @@ const Technologies = ({ title, children }: Props) => {
                   const imgHeight = 70 - totalHeightPadding
 
                   return (
-                    <div className={styles["tech-item"]}>
-                      <div className={styles["tech-item-name"]}>
-                        {false && item.name}
-                      </div>
+                    <div className={styles["tech-item"]} title={item.name}>
                       <img className={styles["tech-item-logo"]} src={item.imageUrl} height={`${imgHeight}px`} style={{padding: imgPadding.map(px => `${px}px`).join(" ")}}/>
+                      <div className={styles["tech-item-name"]}>
+                        {item.name}
+                      </div>
                     </div>
                   )
                 })}

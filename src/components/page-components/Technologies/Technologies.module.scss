@@ -28,6 +28,7 @@
 
   .tech-type-name {
     margin-top: 0;
+    color: $color-gray;
   }
 
   .tech-items-container {
@@ -46,9 +47,15 @@
       max-width: 450px;
 
       .tech-item-name {
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        font-size: .5rem;
+        text-align: center;
       }
       img.tech-item-logo {
         max-width: 100%;
+        margin: auto;
       }
     }
 }
