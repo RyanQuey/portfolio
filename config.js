@@ -15,10 +15,10 @@ module.exports = {
       label: 'How I Fit Into Your Team',
       path: '/pages/how-i-fit'
     },
-    {
-      label: 'Expertise',
-      path: '/pages/expertise'
-    },
+    // {
+    //   label: 'Expertise',
+    //   path: '/pages/expertise'
+    // },
     {
       label: 'Solutions',
       path: '/'
