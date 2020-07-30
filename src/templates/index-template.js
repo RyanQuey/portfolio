@@ -33,6 +33,10 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page title="Solutions">
+        <div>
+          To better demonstrate the kind of work I have done and what I can do for your project, I pulled together some examples of solutions drawn from projects in my portfolio. You can also check out the source code for any of the projects on my <a href="https://github.com/RyanQuey" target="_blank">Github</a>.
+        </div>
+        <br />
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}

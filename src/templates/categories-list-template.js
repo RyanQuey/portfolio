@@ -14,7 +14,11 @@ const CategoriesListTemplate = () => {
   return (
     <Layout title={`Categories - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="Categories">
+      <Page title="Projects">
+        <div>
+          All of the projects used as demos for this site. Click on one to see some solutions related to that project.
+        </div>
+        <br />
         <ul>
           {categories.map((category) => (
             <li key={category.fieldValue}>

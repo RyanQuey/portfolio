@@ -23,7 +23,7 @@ tags:
   - "batch jobs"
   - "data streaming"
   - "shell scripting"
-description: "A major strength of a full-stack data engineer is the ability to bring the entire stack together, coordinating all of your microservices and features into a single product. Any developer can slap a new feature onto your project, but if new features aren't seamlessly integrated into your project as a whole, they will run inefficiently and slow down future development. See how everything can work together, from data pipeline to web app to data visualization and user-facing search functionality."
+description: "The strength of a full-stack data engineer is the ability to bring the entire stack together, coordinating all of your microservices and features into a single product. Any developer can slap a new feature onto your project, but if new features aren't seamlessly integrated into your project as a whole, they will run inefficiently and slow down future development. See how everything can work together, from data pipeline to web app to data visualization and user-facing search functionality."
 #indexImage: "/media/project-images/podcast-analysis-tool/wh_podcast-analysis-tool-diagram.png"
 indexImage: "/media/project-images/podcast-analysis-tool/wh_podcast-analysis-tool-diagram-converted-from-pdf.png"
 category: "java-podcast-processor"

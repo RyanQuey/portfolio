@@ -1,6 +1,6 @@
 // @flow strict
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
@@ -33,6 +33,10 @@ const CategoryTemplate = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={"Project: " + category}>
+        <div>
+          Sample solutions demonstrated by my {category} project. You can find the source code <a href={`https://github.com/RyanQuey/${category}`} target="_blank">here on Github</a>. Check out some of my other projects <Link to="/categories">here</Link>.
+        </div>
+        <br />
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
