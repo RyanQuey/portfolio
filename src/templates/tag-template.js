@@ -36,10 +36,10 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
-      <Page title={"Solutions using: " + tagFriendlyName}>
+      <Page title={"Solutions using " + tagFriendlyName}>
         <p>
           <span>Check out solutions that use {tagFriendlyName} here. {tagDescription}</span>
-          <span>Interested in a different technology? See the <Link to="/tags">full list here</Link></span>.
+          <span>Interested in something else? See the <Link to="/tags">full list of technologies here</Link></span>.
         </p>
         <Feed edges={edges} />
         <Pagination
