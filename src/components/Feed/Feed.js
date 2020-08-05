@@ -47,39 +47,27 @@ class Feed extends React.Component {
                 <div className={styles['feed__item-details-container']}>
                   
                   <p className={styles['feed__item-description']}>
-                    {frontmatter.description}
-                    {false && 
-                      <span>{" "}
-                      Part of the {" "}
+                    <span dangerouslySetInnerHTML={{__html: frontmatter.description}}></span>
+                    &nbsp;
+                    <span className={styles['feed__item-links-container']}>
                       <a 
                         className={styles['feed__item-github-link']} 
                         href={`https://github.com/RyanQuey/${frontmatter.githubRepo}`}
-                        target="_blank">
-                          {frontmatter.githubRepo}
-                          
-                          {false && "TODO make a link to show all feed items that have the same repo, using a filter"}
-                      </a> 
-                      {" "}project.
-                      </span>
-                    }
+                        target="_blank"
+                        >
+                        View on Github
+                      </a>
+                    </span>
                   </p>
                 </div>  
                 <div className={styles['feed__item-footer']}>
+                  <br />
                   <div className={styles['feed__item-tags-container']}>
                     <Tags 
                       tags={frontmatter.tags} 
                       tagSlugs={fields.tagSlugs}
                       smallTags={true}
                       />              
-                  </div>
-                  <div className={styles['feed__item-links-container']}>
-                    <a 
-                      className={styles['feed__item-github-link']} 
-                      href={`https://github.com/RyanQuey/${frontmatter.githubRepo}`}
-                      target="_blank"
-                      >
-                      Check it out on Github
-                    </a>
                   </div>
                 </div>
               </div>

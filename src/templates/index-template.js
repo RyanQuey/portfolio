@@ -33,10 +33,14 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page title="Solutions">
-        <div>
-          To better demonstrate the kind of work I have done and what I can do for your project, I pulled together some examples of solutions drawn from projects in my portfolio. You can also check out the source code for any of the projects on my <a href="https://github.com/RyanQuey" target="_blank">Github</a>.
-        </div>
-        <br />
+        {currentPage == 0 && 
+          <div>
+            <div>
+              To better demonstrate the kind of work I have done and what I can do for your project, I pulled together some examples of solutions drawn from projects in my portfolio. You can also check out the source code for any of the projects on my <a href="https://github.com/RyanQuey" target="_blank">Github</a>.
+            </div>
+            <br />
+          </div>
+        }
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
@@ -55,7 +59,7 @@ export const query = graphql`
         limit: $postsLimit,
         skip: $postsOffset,
         filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___priority] }
+        sort: { fields: [frontmatter___priority], order: DESC }
       ){
       edges {
         node {

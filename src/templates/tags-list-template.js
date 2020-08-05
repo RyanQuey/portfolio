@@ -5,6 +5,7 @@ import kebabCase from 'lodash/kebabCase';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
+import tagsMetadata from '../constants/tags-metadata';
 import { useSiteMetadata, useTagsList } from '../hooks';
 
 const TagsListTemplate = () => {
@@ -14,15 +15,23 @@ const TagsListTemplate = () => {
   return (
     <Layout title={`Tags - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="Tags">
+      <Page title="Solutions Sorted by Technology">
+        <p>Find solutions for whatever technology you're interested in below.</p>
         <ul>
-          {tags.map((tag) => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
-                {tag.fieldValue} ({tag.totalCount})
-              </Link>
-            </li>
-          ))}
+          {tags.map((tag) => {
+            const tagName = tag.fieldValue
+            const tagMetadata = tagsMetadata[tagName] || {}
+            const tagFriendlyName = tagMetadata.friendlyName || tagName
+            const tagDescription = tagMetadata.description || "" 
+
+            return (
+              <li key={tag.fieldValue}>
+                <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
+                  {tagFriendlyName} ({tag.totalCount})
+                </Link>
+              </li>
+            )
+          })}
         </ul>
       </Page>
     </Layout>
