@@ -142,12 +142,11 @@ $ gatsby serve
 
 ```
 
-## Related
-[Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
-
-## Contributors
-Thanks goes to these wonderful people!
-
+## TODOs
+- add link to blog
+- add descriptions to tags in tags-metadata.js
+- add projects using prometheus
+- probably re-order priorities for posts somewhat, so more relevant solutions are put first
 
 
 
