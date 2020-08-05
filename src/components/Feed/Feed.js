@@ -61,7 +61,6 @@ class Feed extends React.Component {
                   </p>
                 </div>  
                 <div className={styles['feed__item-footer']}>
-                  <br />
                   <div className={styles['feed__item-tags-container']}>
                     <Tags 
                       tags={frontmatter.tags} 

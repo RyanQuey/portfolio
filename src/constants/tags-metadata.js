@@ -31,6 +31,7 @@ const tagMetadata = {
   "react": {friendlyName: "React", description: ""},
   "scala": {friendlyName: "Scala", description: ""},
   "searchkit": {friendlyName: "Searchkit", description: ""},
+  "shell scripting": {friendlyName: "Shell Scripting", description: ""},
   "spark": {friendlyName: "Spark", description: ""},
   "zeppelin": {friendlyName: "Zeppelin", description: ""},
 }

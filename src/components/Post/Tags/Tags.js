@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styles from './Tags.module.scss';
+import tagsMetadata from '../../../constants/tags-metadata';
 
 type Props = {
   tags: string[],
@@ -28,13 +29,20 @@ class Tags extends React.Component {
     return (
       <div className={styles['tags']}>
         <ul className={styles['tags__list']}>
-          {tagSlugs && tagSlugs.map((slug, i) => (
-            <li className={styles['tags__list-item'] + " " + (styles[smallTags ? "small-tag" : "big-tag"])} key={tags[i]}>
-              <Link to={slug} className={styles['tags__list-item-link'] + " " + (styles[smallTags ?"small-tag-link" : "big-tag-link"])}>
-                {tags[i]}
-              </Link>
-            </li>
-          ))}
+          {tagSlugs && tagSlugs.map((slug, i) => {
+            const tag = tags[i]
+            const tagMetadata = tagsMetadata[tag] || {}
+            const tagFriendlyName = tagMetadata.friendlyName || tag
+            const tagDescription = tagMetadata.description || "" 
+
+            return (
+              <li className={styles['tags__list-item'] + " " + (styles[smallTags ? "small-tag" : "big-tag"])} key={tag}>
+                  <Link to={slug} className={styles['tags__list-item-link'] + " " + (styles[smallTags ?"small-tag-link" : "big-tag-link"])}>
+                    {tagFriendlyName}
+                  </Link>
+                </li>
+            )
+          })}
 
           {this.props.tags.length > 5 && <a 
             className={styles['tags__list-show-more-link']} 

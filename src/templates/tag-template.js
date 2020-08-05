@@ -29,7 +29,6 @@ const TagTemplate = ({ data, pageContext }: Props) => {
 
   const { edges } = data.allMarkdownRemark;
   const tagMetadata = tagsMetadata[tag] || {}
-  console.log(tagMetadata)
   const tagFriendlyName = tagMetadata.friendlyName || tag
   const tagDescription = tagMetadata.description || "" 
   const pageTitle = currentPage > 0 ? `All Solutions using "${tagFriendlyName}" - Page ${currentPage} - ${siteTitle}` : `All Posts tagged as "${tag}" - ${siteTitle}`;
