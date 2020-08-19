@@ -145,7 +145,9 @@ $ gatsby serve
 ## TODOs
 - add link to blog
 - add descriptions to tags in tags-metadata.js
-- add projects using prometheus
+- add more solutions:
+    * https://github.com/RyanQuey/ansible-playground
+    * add projects using prometheus (new tag: dev-ops)
 - probably re-order priorities for posts somewhat, so more relevant solutions are put first
 
 
