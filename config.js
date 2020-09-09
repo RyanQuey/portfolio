@@ -27,6 +27,10 @@ module.exports = {
       label: 'About',
       path: '/pages/about'
     },
+    {
+      label: 'Blog',
+      path: '/pages/blog'
+    },
   ],
   author: {
     name: 'Ryan Quey',

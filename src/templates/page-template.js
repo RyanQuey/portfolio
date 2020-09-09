@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import Technologies from '../components/page-components/Technologies';
+import MediumWidget from '../components/page-components/MediumWidget';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
@@ -16,6 +17,7 @@ type Props = {
 
 const components = {
   Technologies, 
+  MediumWidget,
 }
 
 // reads the Props type and grabs data from it, so we can get markdownRemark from that
