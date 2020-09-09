@@ -36,6 +36,14 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+        <script type="text/javascript">
+          function mediumWidget(){
+            MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@ryanquey","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}});
+          }
+        </script>
+
+        
       </Helmet>
       {children}
     </div>

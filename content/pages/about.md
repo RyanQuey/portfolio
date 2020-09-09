@@ -12,4 +12,4 @@ My education background includes two masters degrees. My studies involved master
 
 Professional interests include all things data, but especially health care use cases for AI/machine learning. 
 
-Occasionally I write technical blog posts, which you can find [here on Medium](https://medium.com/@rlquey2).
+Occasionally I write technical blog posts, which you can find [here on Medium](https://medium.com/@RyanQuey).

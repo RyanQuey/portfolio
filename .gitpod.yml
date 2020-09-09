@@ -3,3 +3,5 @@ image:
 
 tasks:
   - init: npm install && npm run develop
+ports:
+  - port: 8000
