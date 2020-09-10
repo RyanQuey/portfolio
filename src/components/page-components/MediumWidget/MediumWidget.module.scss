@@ -16,9 +16,9 @@
   margin-bottom: 3rem;
 
   @include breakpoint-sm {
-    min-width: 200px;
+    // min-width: 200px;
     max-width: 40%;
-    // width: 40%;
+    width: 40%;
     margin: 1rem;
   }
 }
