@@ -24,12 +24,12 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About',
-      path: '/pages/about'
-    },
-    {
       label: 'Blog',
       path: '/pages/blog'
+    },
+    {
+      label: 'About',
+      path: '/pages/about'
     },
   ],
   author: {
