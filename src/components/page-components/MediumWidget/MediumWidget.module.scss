@@ -1,66 +1,58 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
 
-.expertise-tech-list {
+.container {
   display: flex;
+  flex-direction: column;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  // makes a nice little indentation for mobile, but keeps space between columns for desktop
-  justify-content: space-around;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+}
+.card {
+  margin-bottom: 3rem;
 
-
-  @include breakpoint-md {
-    justify-content: space-between;
+  @include breakpoint-sm {
+    min-width: 200px;
+    max-width: 40%;
+    // width: 40%;
+    margin: 1rem;
   }
 }
-.tech-header {
+.post-content-preview {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
-.tech-type-container {
-  padding: 10px 10px 10px 0;
-  @include breakpoint-md {
-    width: 245px;
-  }
-  @include breakpoint-lg {
-    width: 285px;
-  }
+.post-body {
 
-  @include breakpoint-md {
-  }
-
-  .tech-type-name {
-    margin-top: 0;
-    color: $color-gray;
-  }
-
-  .tech-items-container {
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    width: 100%;
-    margin-bottom: 2rem;
-
-    .tech-item {
-      position: relative;
-      margin: 0 5px;
-      // keep the same as the img height set in the html (I think helps browser load time to know size or something)
-      max-height: 100px;
-      min-height: 70px;
-      max-width: 450px;
-
-      .tech-item-name {
-        color: #fff;
-        margin: 0;
-        padding: 0;
-        font-size: .5rem;
-        text-align: center;
-        font-size: 1px; // needs to be at least a little visible or ctrl-f doesn't work
-        position: absolute;
-        top: 20px;
-        z-index: -1; // put it behind everything
-      }
-      img.tech-item-logo {
-        max-width: 100%;
-        margin: auto;
-      }
-    }
 }
+.post-title {
+  margin: 0;
+  display: inline-block;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.9);
+  border: none;
+  text-decoration: none;
+}
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+  line-height: 1.3em;
+
+}
+.post-link {}
+.post-subtitle {
+
 }

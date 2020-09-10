@@ -19,3 +19,20 @@
   }
 
 }
+// medium widget overrides, since it's easier than parsing the content and so on
+#medium-widget-container {
+  .medium-feed-snippet {
+    display: none;
+  }
+  .medium-feed-link {
+    display: none;
+  }
+  .medium-feed-item {
+    margin: 0;
+    height: 100%;
+  }
+  .medium-feed-image {
+    margin: 0;
+    height: 100%;
+  }
+}
