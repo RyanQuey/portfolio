@@ -47,7 +47,7 @@ class MediumWidget extends React.Component {
       <div id="blogs-and-presentations-container" className={styles["container"]}>
         <div id="presentations-container" className={styles["container"]}>
           <h2>Meetup Presentations</h2>
-          <div>I recently on Kafka with Cassandra for the <a>Cassandra & DataStax DC Meetup</a>. I presented on my Podcast Processor Tool for their Cassandra Lunch. The presentation was also featured on <a target="_blank" href="https://blog.anant.us/cassandra-lunch-18-connecting-cassandra-to-kafka/">Anant Corporation's blog</a>.</div>
+          <div>I recently presented on Kafka with Cassandra for the <a>Cassandra & DataStax DC Meetup</a>. I presented on my Podcast Processor Tool for their Cassandra Lunch. The presentation was also featured on <a target="_blank" href="https://blog.anant.us/cassandra-lunch-18-connecting-cassandra-to-kafka/">Anant Corporation's blog</a>.</div>
           <br />
           <div><iframe width="560" height="315" src="https://www.youtube.com/embed/g9ITZ_qyezs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
