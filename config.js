@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://ryanquey.com',
   pathPrefix: '/',
   title: 'Ryan Quey',
   subtitle: 'Full Stack Data Engineer',
@@ -24,7 +24,7 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'Blog',
+      label: 'Blogs and Presentations',
       path: '/pages/blog'
     },
     {
