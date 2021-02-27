@@ -11,6 +11,7 @@ tags:
   - "logstash"
   - "kibana"
   - "cassandra"
+  - "devops"
   - "data visualization"
 description: "Distributed apps quickly get to the place where trying to debug using tail -f becomes untenable. However, ignoring your logs isn't an option. The ELK Stack (Elasticsearch, Logstash, and Kibana) is a go-to tool for managing your logs and making them help you rather than just taking up hard drive space. Unfortunately, it does not yet have out-of-the-box log processing or dashboards for Cassandra. Check out a way to extract meaningful information from your Cassandra logs here."
 indexImage: "/media/project-images/cassandra-in-kibana/kibana-full-dashboard-for-cassandra-logs.png"

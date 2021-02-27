@@ -3,7 +3,7 @@ title: Build a Data-Intensive, Full Stack App from Start to Finish
 template: "post"
 draft: false
 slug: "build-a-data-intensive-app-from-start-to-finish"
-priority: 10
+priority: 9.5
 tags:
   - "java"
   - "python"

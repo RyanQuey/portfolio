@@ -3,7 +3,7 @@ title: "Provide Search for Cassandra DB using Elasticsearch and Flask"
 template: "post"
 draft: false
 slug: "provide-search-for-cassandra-db-using-elasticsearch-and-flask"
-priority: 5
+priority: 4
 tags:
   - "elasticsearch"
   - "cassandra"

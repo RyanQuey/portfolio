@@ -3,7 +3,7 @@ title: ETL from Cassandra using Spark
 template: "post"
 draft: false
 slug: "etl-from-cassandra-using-spark"
-priority: 7
+priority: 8
 tags:
   - "spark"
   - "cassandra"
